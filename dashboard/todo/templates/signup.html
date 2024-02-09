@@ -1,0 +1,42 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex justify-center p-4">
+        
+
+        
+
+        <div class="bg-gray-100 border-t-4 border-blue-950 w-1/4 px-4 py-4 rounded-xl" style="float: mi;">
+            <h4 class="font-bold">Signup Form</h4>
+            <form action="">
+                <div class="py-1">
+                    <label for="" class="text-xs">First Name</label> <br>
+                    <input type="text" class="rounded-full border-2 border-blue-950 text-black px-3  w-full" name="" id="">
+                </div>
+                <div class="py-1">
+                    <label for="" class="text-xs">Last Name</label> <br>
+                    <input type="text" class="rounded-full border-2 border-blue-950 text-black px-3  w-full" name="" id="">
+                </div>
+                <div class="py-1">
+                    <label for="" class="text-xs">Date of birth</label> <br>
+                    <input type="date" class="rounded-full border-2 border-blue-950 text-black px-3  w-full" name="" id="">
+                </div>
+                <div class="py-1">
+                    <label for="" class="text-xs">Id</label> <br>
+                    <input type="text" class="rounded-full border-2 border-blue-950 text-black px-3  w-full" name="" id="">
+                </div>
+                <div class="mt-4">
+                    <button class="bg-blue-400 text-white px-4 py-1 "><a href="{%  url 'home' %}">Login</a></button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
